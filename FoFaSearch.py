@@ -34,7 +34,7 @@ class Fofa:
         for number,key in enumerate(self.assets):
             table.add_row([number+1,key,self.explain[number]])
         print(self.ORANGE +
-            "python3 FoFaSearch.py --cookie=xxxx "
+            "python3 FoFaSearch.py --auth=xxxx "
             "--query=app=\\\"thinkphp\\\" "
             "--start=1 "
             "--end=2 "
