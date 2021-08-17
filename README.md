@@ -1,6 +1,5 @@
 # FoFaSearch
 - 基于爬虫式对FoFa数据进行爬取，需要请求头中的`Authorization`。
-- 注意输入数据有双引号时，请用转义字符对双引号进行转义。
 
 ![FoFa](./Image/1.png)
 
