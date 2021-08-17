@@ -31,15 +31,6 @@ class Fofa:
         table = PrettyTable(['编号','名称','解释'])
         for number,key in enumerate(self.assets):
             table.add_row([number+1,key,self.explain[number]])
-        print(self.ORANGE +
-            "python3 FoFaSearch.py --cookie=xxxx "
-            "--query=app=\\\"thinkphp\\\" "
-            "--start=1 "
-            "--end=2 "
-            "--number=1,3,5 "
-            "--filepath=/home/pan3a/Desktop/thinkphp.txt"
-            + self.ORANGE
-              )
         print(table)
 
     def InitVar(self):
