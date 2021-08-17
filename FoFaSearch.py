@@ -1,4 +1,4 @@
-# !/usr/bin/python
+# !/usr/bin/python3
 # -*- coding:utf-8 -*-
 # author: Pan3a
 # time: 2021/8/15
@@ -12,7 +12,7 @@ import os
 class Fofa:
     def __init__(self):
         self.Headers = {
-            'Authorization':'eyJhbGciOiJIUzUxMiIsImtpZCI6Ik5XWTVZakF4TVRkalltSTJNRFZsWXpRM05EWXdaakF3TURVMlkyWTNZemd3TUdRd1pUTmpZUT09IiwidHlwIjoiSldUIn0.eyJpZCI6Mzk5OTQsIm1pZCI6MTAwMDI4Mjc2LCJ1c2VybmFtZSI6Iuaeq-mbqiIsImV4cCI6MTYyOTEzMzI1Ny45OTMwMzYsImlzcyI6InJlZnJlc2gifQ.RmvyaQV0aq3m3SheCu2_0hFk5XhqfkA2s-_yhbqcbSsLWTU1abvYPeB07IQYIj9MRGxYVs6SLLbxUCC8HN54Fg',
+            'Authorization':'eyJhbGciOiJIUzUxMiIsImtpZ......',
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
         }
         self.URL = 'http://api.fofa.so/v1/search?'
