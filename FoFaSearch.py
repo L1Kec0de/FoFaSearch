@@ -9,6 +9,7 @@ from requests import get
 import sys
 import os
 
+
 class Fofa:
     def __init__(self):
         self.Headers = {
