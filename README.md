@@ -1,6 +1,7 @@
 # FoFaSearch
 - 基于爬虫式对FoFa数据进行爬取，需要请求头中的`Authorization`。
-- 
+- 也可增加需要爬取的数据，只需将需要的字段增加到到列表里面即可。字段名如下图字典assets中的key值添加到`self.assets`中，字段解释添加到`self.explain`中。
+![api](./Image/api.png)
 
 ![FoFa](./Image/1.png)
 
