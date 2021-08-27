@@ -1,5 +1,6 @@
 # FoFaSearch
 - 基于爬虫式对FoFa数据进行爬取，需要请求头中的`Authorization`。
+- 
 
 ![FoFa](./Image/1.png)
 
@@ -16,3 +17,7 @@
 ![2](./Image/2.png)
 
 ![3](./Image/3.png)
+
+![tp](./Image/tp.png)
+
+![tpxls](./Image/tpxls.png)
