@@ -98,7 +98,7 @@ class Fofa:
                 self.excel.save(self.filepath)
             elif self.filepath and self.filepath[-3:] == 'txt':
                 file.close()
-                sleep(2)
+            sleep(2)
         except Exception as e:
             print(self.RED + str(e) + self.RED)
 
