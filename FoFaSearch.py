@@ -107,16 +107,16 @@ class Fofa:
         if os.path.exists(self.filepath):
             choose = input(self.GREEN + self.filepath + "已经存在,是否覆盖Y/N/EXIT:"+ self.GREEN)
             if choose == 'Y' or choose == 'y':
-                file = open(self.filepath, 'a',encoding='UTF-8')
+                file = open(self.filepath, 'a',errors="ignore")
                 return file
             elif choose == 'N' or choose == 'n':
                 self.filepath = input(self.GREEN + "input filepath:" + self.GREEN)
-                file = open(self.filepath, 'a',encoding='UTF-8')
+                file = open(self.filepath, 'a',errors="ignore")
                 return file
             else:
                 self.filepath = None
         else:
-            file = open(self.filepath, 'a',encoding='UTF-8')
+            file = open(self.filepath, 'a',errors="ignore")
             return file
 
     def WriteExcel(self):
