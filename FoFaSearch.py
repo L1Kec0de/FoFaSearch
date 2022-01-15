@@ -15,7 +15,7 @@ class Fofa:
             'Authorization':'eyJhbGciOiJIUzUxMiIsImtpZCI6Ik5XWTVZakF4TVRkalltSTJNRFZ',
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
         }
-        self.URL = 'http://api.fofa.so/v1/search?'
+        self.URL = 'https://api.fofa.so/v1/search?'
         self.Color()
         self.Banner()
         self.InitVar()
